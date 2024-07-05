@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://arunkumar:arun9345@cluster0.lri240g.mongodb.net/weatherApp', {
-    useNewUrlParser: true,
+
     useUnifiedTopology: true,
 });
 
